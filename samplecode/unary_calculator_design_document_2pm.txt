@@ -1,0 +1,28 @@
+# Unary calculator design document
+# Live coding example from MCS 260 Lecture 15 (2pm)
+# David Dumas
+
+Unary = every command takes one argument
+
+A calculator simulation that prints a prompt,
+waits for commands, and performs calculations.
+It will maintain a single float value that
+is printed after each command.
+
+Each command has the form
+   NAME ARGUMENT
+
+Where NAME is the command name (e.g. "mul",
+"add","div","sub",...), and ARGUMENT is a float
+literal that is the number to which the command
+applies.
+
+Sample session:
+0.000
+>add 5
+5.000
+>mul 2
+10.000
+>div 5
+2.000
+>
