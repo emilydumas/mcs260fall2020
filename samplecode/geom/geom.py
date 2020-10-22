@@ -53,12 +53,36 @@ class Rectangle:
 
     def __str__(self):
         """Human-readable representation of the object"""
-        return "Rectangle(cx={},cy={},w={},h={})".format(
+        return "{}(cx={},cy={},w={},h={})".format(
+            self.__class__.__name__,
             self.cx,
             self.cy,
             self.w,
             self.h
         )
+
+    def __add__(self,other):
+        """Sum of two rectangles is defined here as their
+        axis-parallel bounding box (another rectangle).
+        """
+        if not isinstance(other,Rectangle):
+            raise TypeError("Can only add Rectangle to Rectangle")
+
+        # Calculate the x- and y-axis extents of the two
+        # rectangles, i.e. the max and min of each coordinate
+        xmin = min(self.cx-0.5*self.w, other.cx-0.5*other.w)
+        xmax = max(self.cx+0.5*self.w, other.cx+0.5*other.w)
+        ymin = min(self.cy-0.5*self.h, other.cy-0.5*other.h)
+        ymax = max(self.cy+0.5*self.h, other.cy+0.5*other.h)
+
+        # Compute the center, width, and height of the
+        # bounding box from the coordinates above
+        cx = 0.5*(xmin + xmax)
+        cy = 0.5*(ymin + ymax)
+        w = xmax - xmin 
+        h = ymax - ymin
+
+        return Rectangle(cx=cx,cy=cy,w=w,h=h)
 
     def __eq__(self,other):
         """Is this rectangle equal to other, in the sense
@@ -82,3 +106,14 @@ class Rectangle:
         """Apply a uniform scale about the center"""
         self.w *= factor
         self.h *= factor
+
+class Square(Rectangle):
+    """Axis-parallel square in the plane"""
+    def __init__(self,cx,cy,side):
+        """Initialize a square with center (cx,cy) and side
+        length `side`
+        """
+        super().__init__(cx=cx,cy=cy,w=side,h=side)
+        # Often a subclass will now do some
+        # additional setup work here, after
+        # calling the superclass constructor.
