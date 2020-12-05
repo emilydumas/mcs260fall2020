@@ -8,4 +8,4 @@ Both applications implement an alphabet rotation code (e.g. ROT13) with a slider
 
 * [lasercode.py](lasercode.py) and [sharkencode.py](sharkencode.py) - Original application.  Encoding runs in the main thread.
 * [lasercode2.py](lasercode2.py) and [sharkencode2.py](sharkencode2.py)- Modified version with slow encoding (1s delay).  Suffers from unresponsive GUI.
-* [lasercode3.py](lasercode2.py) and [sharkencode3.py](sharkencode3.py)- Multi-threaded version that moves slow encoding to a worker thread, keeping the GUI responsive.
+* [lasercode3.py](lasercode3.py) and [sharkencode3.py](sharkencode3.py)- Multi-threaded version that moves slow encoding to a worker thread, keeping the GUI responsive.
