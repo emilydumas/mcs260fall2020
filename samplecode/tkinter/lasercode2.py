@@ -1,10 +1,12 @@
 """
 GUI for letter rotation encoding of strings
+With slow encoding that makes GUI unresponsive!
 MCS 260 Fall 2020 Lecture 38 (2pm)
 """
 import tkinter
 import tkinter.ttk
 import rotcode
+import time
 
 class EncoderApp(tkinter.Tk):
     """GUI for controlling rotcode.rotate"""
@@ -65,6 +67,7 @@ class EncoderApp(tkinter.Tk):
         """callback for changes to input text entry box"""
         s = self.input_text.get()
         senc = rotcode.rotate(s,self.steps.get())
+        time.sleep(1)
         if self.reverse_flag.get():
             # Reverse the encoded string
             senc = senc[::-1]
