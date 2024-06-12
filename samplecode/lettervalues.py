@@ -1,7 +1,7 @@
 """Compute the "value" of a word, if each letter is
 worth a different number of points specified in a 
 file.
-MCS 260 Fall 2020 Lecture 13 - David Dumas
+MCS 260 Fall 2020 Lecture 13 - Emily Dumas
 """
 # A sample data file vals.txt is available at
 # https://dumas.io/teaching/2020/fall/mcs260/samplecode/vals.txt

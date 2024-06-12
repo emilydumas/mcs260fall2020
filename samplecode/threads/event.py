@@ -1,7 +1,7 @@
 """
 Example of a worker thread that wakes up in response
 to an Event object being set.
-MCS 260 Fall 2020 Lecture 42 - David Dumas
+MCS 260 Fall 2020 Lecture 42 - Emily Dumas
 """
 
 import threading

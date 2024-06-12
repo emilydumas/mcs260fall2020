@@ -3,7 +3,7 @@ Illustrate a problem with two threads accessing a
 single object: Active thread may change in the middle
 of an update.
 
-MCS 260 Fall 2020 Lecture 42 - David Dumas
+MCS 260 Fall 2020 Lecture 42 - Emily Dumas
 """
 
 import threading

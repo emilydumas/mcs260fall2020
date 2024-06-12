@@ -1,5 +1,5 @@
 # Prefix calculator for one-digit operands
-# MCS 260 Fall 2020 Lecture 7 - David Dumas
+# MCS 260 Fall 2020 Lecture 7 - Emily Dumas
 
 while True:
     s = input("> ")

@@ -1,5 +1,5 @@
 """Check arithmetic expression for balanced parentheses"""
-# MCS 260 Fall 2020 Lecture 14 - David Dumas
+# MCS 260 Fall 2020 Lecture 14 - Emily Dumas
 
 print("Enter an arithmetic expression in parentheses:")
 s = input().strip()

@@ -1,7 +1,7 @@
 """Unary calculator REPL
 Originally developed in Lecture 15
 Updated with error handling in Lecture 17
-MCS 260 (2pm) - David Dumas
+MCS 260 (2pm) - Emily Dumas
 """
 
 # This was developed as a live coding example

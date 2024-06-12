@@ -1,6 +1,6 @@
 """
 Compute statistics on words in a given text
-MCS 260 Fall 2020 Lecture 11 - David Dumas
+MCS 260 Fall 2020 Lecture 11 - Emily Dumas
 """
 
 # We hard-code text because input() doesn't

@@ -1,5 +1,5 @@
 # Determine the number of real roots of a quadratic polynomial
-# MCS 260 Fall 2020 Lecture 6 - David Dumas
+# MCS 260 Fall 2020 Lecture 6 - Emily Dumas
 print("Enter the coefficients a,b,c of ax^2+bx+c, in that order, one per line.")
 a = float(input())
 b = float(input())

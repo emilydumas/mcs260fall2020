@@ -1,5 +1,5 @@
 """Unary calculator REPL
-MCS 260 Lecture 15 (2pm) - David Dumas
+MCS 260 Lecture 15 (2pm) - Emily Dumas
 """
 # This was developed as a live coding example
 # You can (and should) watch the video of it being 

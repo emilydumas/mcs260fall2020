@@ -2,7 +2,7 @@
 # MCS 260 Fall 2020, Tue Sep 1 discussion meeting
 # Jennifer Vaccaro
 
-# Notes [added by David Dumas]:
+# Notes [added by Emily Dumas]:
 # (1) This script illustrates several ways to compute powers of 2 in Python
 # (2) This is "preview" code: It illustrates some recent material, but it also
 # uses some Python features that we haven't discussed yet.  It was presented

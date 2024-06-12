@@ -1,7 +1,7 @@
 """Unary calculator
 Originally developed in Lecture 15
 Updated with error handling in Lecture 17
-MCS 260 Fall 2020 - David Dumas"""
+MCS 260 Fall 2020 - Emily Dumas"""
 
 # This was developed as a live coding example
 # The error handling was added in this video:

@@ -2,7 +2,7 @@
 Illustrate how to have two threads safely accessing
 a single object using a Lock.
 
-MCS 260 Fall 2020 Lecture 42 - David Dumas
+MCS 260 Fall 2020 Lecture 42 - Emily Dumas
 """
 
 import threading

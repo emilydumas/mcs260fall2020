@@ -1,6 +1,6 @@
 """
 GUI demonstration using tkinter
-MCS 260 Fall 2020 Lecture 36 - David Dumas
+MCS 260 Fall 2020 Lecture 36 - Emily Dumas
 """
 
 import tkinter

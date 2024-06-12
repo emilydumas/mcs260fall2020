@@ -2,7 +2,7 @@
 The first argument is the number of times.
 The second gives the string to repeat.
 
-MCS 260 Fall 2020 Lecture 12 - David Dumas
+MCS 260 Fall 2020 Lecture 12 - Emily Dumas
 """
 
 import sys

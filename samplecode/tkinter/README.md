@@ -1,6 +1,6 @@
 # tkinter examples
 
-These example programs accompany lectures 36, 38, 40, and 43 of MCS 260 (Fall 2020, instructor David Dumas).
+These example programs accompany lectures 36, 38, 40, and 43 of MCS 260 (Fall 2020, instructor Emily Dumas).
 
 There are two applications here that are essentially equivalent in functionality. One was developed in each of the two course lectures (10am and 2pm), and each exists in several versions.  The applications were given arbitrary names that do not reflect their functionality.
 

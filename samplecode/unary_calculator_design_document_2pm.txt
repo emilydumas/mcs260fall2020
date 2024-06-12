@@ -1,6 +1,6 @@
 # Unary calculator design document
 # Live coding example from MCS 260 Lecture 15 (2pm)
-# David Dumas
+# Emily Dumas
 
 Unary = every command takes one argument
 

@@ -1,5 +1,5 @@
 # Rot13 cipher simple implementation
-# MCS 260 Fall 2020 Lecture 7 - David Dumas
+# MCS 260 Fall 2020 Lecture 7 - Emily Dumas
 
 # Note: Only lower-case letters supported!
 

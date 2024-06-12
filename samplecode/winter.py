@@ -1,5 +1,5 @@
 """Simulate getting ready to go out in winter"""
-# MCS 260 Fall 2020 Lecture 14 - David Dumas
+# MCS 260 Fall 2020 Lecture 14 - Emily Dumas
 
 print("Enter items worn, in order put on:")
 L = []

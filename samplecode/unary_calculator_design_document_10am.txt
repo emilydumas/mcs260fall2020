@@ -1,6 +1,6 @@
 # Design document
 # Live coding example from MCS 260 Lecture 15 (2pm)
-# David Dumas
+# Emily Dumas
 
 Make a unary calculator.
 

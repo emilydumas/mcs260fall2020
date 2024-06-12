@@ -1,5 +1,5 @@
 """Unary calculator from lecture 15
-MCS 260 Fall 2020 - David Dumas"""
+MCS 260 Fall 2020 - Emily Dumas"""
 
 # This was developed as a live coding example
 # You can (and should) watch the video of it being 
